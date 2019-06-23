@@ -1,0 +1,199 @@
+/* ADDING FONT FACE */
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+a:link, a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active{
+  color: gray;
+}
+
+body {
+  background-color:#FAFAFA;
+  font-family:'San Francisco';
+  margin:0;
+  padding:0;
+}
+
+.header {
+  display:grid;
+  grid-template-columns: 1fr;
+  background-color: #323232;
+  opacity: .96;
+  height: 2.7em;
+  width: 100%;
+  color: #FAFAFA;
+  text-align:center;
+  align-items:center;
+  position:fixed;
+}
+
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+}
+
+li {
+  padding-right: 3em;
+  padding-left: 3em;
+  display:inline;
+}
+
+li:hover {
+  color: #959595;
+}
+
+
+.xcontainer {
+  text-align:center;
+  color: #111111;
+  padding-top: 5em;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+.xcontainer2 {
+  text-align:left;
+  color: #111111;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+#x {
+  font-size: 55px;
+  font-weight:900;
+}
+
+#xhello {
+  margin-top:.5em;
+  font-size: 30px;
+  font-weight:500;
+}
+
+.watchcontainer {
+  text-align:center;
+  margin-top: 5em;
+  margin-left: 10em;
+  margin-right: 10em;
+}
+
+#imagination {
+  font-size: 55px;
+  font-weight: 900;
+}
+
+#shopwatch {
+  font-size: 27px;
+  font-weight: 500;
+}
+
+.macgrid {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 1em;
+  grid-column-gap: 1em;
+}
+
+/* ROW ONE */
+
+.imac {
+  text-align:center;
+  background-color: #1A1A1A;
+  color: #FAFAFA;
+}
+
+#imac {
+  margin-top: 3em;
+}
+
+.iphone8 {
+  text-align:center;
+}
+
+.headtext {
+  font-size: 40px;
+  font-weight: 700;
+  padding-top:1.25em;
+}
+
+.subheadtext {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+#iphone8pic {
+  margin-top: 3em;
+  height: 469px;
+}
+
+#tv {
+  height: 469px;
+}
+
+/* ROW TWO */
+
+.iwatch {
+  background-color:#F9F0EB;
+  text-align:center;
+  font-size: 20px;
+}
+
+.fourk {
+  background-color:#020814;
+  text-align:center;
+  color:white;
+  font-size: 20px;
+}
+
+/* ROW THREE */
+
+.topimg {
+  margin-top: 3em;
+}
+
+/* FIND BETTER IMAGE, STYLING */
+#sway {
+  width: 100%;
+}
+
+/* Abosolute Positioning for Sway Text, not best b/c no picture */
+
+#holiday {
+  font-size: 40px;
+  font-weight: 700;
+  text-align:center;
+}
+
+#watchsway {
+  font-size: 20px;
+  text-align:center;
+  margin-top:.5em;
+}
+
+/* End */
+
+.credits {
+  margin-top: 2em;
+  display:grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 2fr;
+  grid-auto-rows: auto;
+  text-align:right;
+}
+
+.credits strong a{
+  color: black;
+}
+
+.credits strong a:hover{
+  color: gray;
+}
